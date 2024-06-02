@@ -14,6 +14,9 @@ header {
 .header_text {
     width: calc(50% - 50px);
 }
+.highlight {
+    color: var(--light-secondary-color);
+}
 
 .circle {
     height: 600px;

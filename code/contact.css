@@ -62,4 +62,8 @@
     nav ul li {
         margin-bottom: 10px;
     }
+    .contact-form .form-group input,
+    .contact-form .form-group textarea {
+        width: 90%;
+    }
 }
