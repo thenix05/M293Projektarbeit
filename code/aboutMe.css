@@ -24,6 +24,7 @@
 }
 @media(max-width: 800px){
     #about_me_section{
+        margin: 5px;
         padding: 50px;
     }
     #about_me_section h2{

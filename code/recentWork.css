@@ -24,12 +24,11 @@
     padding: 60px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
 }
 
 .card * {
-    text-align: center;
+    text-align: center; 
 }
 
 .card a {
@@ -50,7 +49,6 @@
 
 @media (min-width: 450px) {
     .flex_container {
-        flex-direction: column;
         align-items: center;
     }
 
