@@ -1,0 +1,39 @@
+header {
+    padding: 100px 25px;
+    position: relative;
+}
+
+.header_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.header_text {
+    width: calc(50% - 50px);
+}
+
+.circle {
+    height: 600px;
+    width: 600px;
+    max-height: 80vw;
+    max-width: 80vw;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 20px solid var(--main-brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 600px;
+}
+
+@media(max-width: 800px) {
+    .header_text {
+        width: 100%;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="toggle_button">
+        <label for="toggle_button" class="toggle_label">
+            <span class="material-symbols-rounded">menu</span>
+        </label>
+        <div class="header_content">
+            <div class="header_text">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutMe.html">About Me</a></li>
+                        <li><a href="hobbys.html">Hobbys</a></li>
+                        <li><a href="recentWork.html">Recent Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>Kontaktieren Sie uns</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Nachricht</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Absenden</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer id="more-information_section">
+        <h2>Mehr Informationen</h2>
+        <div class="grid_container">
+            <div id="Item1" class="grid-item">
+                <img src="images/instagram-1-svgrepo-com.svg" alt="">
+                <div>
+                    <h3>Instagram</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto officia minima ducimus rem reprehenderit praesentium!</p>
+                </div>
+            </div>
+            <div id="Item2" class="grid-item">
+                <img src="images/whatsapp-svgrepo-com.svg" alt="">
+            </div>
+            <div id="Item3" class="grid-item">
+                <h3>Kontakt</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sunt itaque quam ad expedita earum, distinctio vitae fugiat obcaecati dolorum recusandae! Ratione laborum aspernatur amet!</P>
+            </div>
+            <div id="Item4" class="grid-item">
+                <img src="images/linkedin-svgrepo-com.svg" alt="">
+            </div>
+            <div id="Item5" class="grid-item">
+                <img src="images/github-142-svgrepo-com.svg" alt="">
+                <div>
+                    <h3>Git Hub</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto officia minima ducimus rem reprehenderit praesentium!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
