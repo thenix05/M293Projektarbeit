@@ -32,14 +32,6 @@ h3{
     font-size: 38px;
 }
 
-.subheading {
-    margin-top: 25px;
-    color: var(--secondary-color);
-}
-
-
-
-
 
 
 nav {
@@ -92,6 +84,7 @@ nav a:hover::after {
     left: 10px;
     padding: 10px;
 }
+
 @media(min-width: 801px){
     header {
         background-color: var(--secondary-text-color);
@@ -148,6 +141,9 @@ nav a:hover::after {
 
     label[for="toggle_button"]{
         display: block;
+    }
+    #menu_burger {
+        font-size: 60px;
     }
 }
 
@@ -206,7 +202,7 @@ footer h2{
 #Item5{
     grid-area: item5;
 }
-@media(max-width: 1300px){
+@media(max-width: 1250px){
     .grid_container{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 300px 300px 300px;
@@ -217,7 +213,7 @@ footer h2{
         "item3 item3 item3";
     }
 }
-@media(max-width: 900px){
+@media(max-width: 850px){
     .grid_container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto auto auto;
@@ -229,7 +225,7 @@ footer h2{
         "item3 item3";
     }
 }
-@media(max-width: 650px){
+@media(max-width: 600px){
     footer h2{
         font-size: 9vw;
     }
