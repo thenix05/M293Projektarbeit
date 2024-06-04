@@ -2,7 +2,9 @@ header {
     padding: 100px 25px;
     position: relative;
 }
-
+.text h1 {
+    padding-bottom: 20px;
+}
 .content {
     display: flex;
     justify-content: center;
@@ -56,8 +58,9 @@ header {
     }
 
     .circle {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
+        border: 10px solid var(--main-brand-color);
     }
 }
 

@@ -31,8 +31,19 @@ h1 {
 h3{
     font-size: 38px;
 }
+.mobile-medien {
+    display: none;
+}
 
+@media(max-width: 800px){
+    .mobile-medien {
+        display: block;
+    }
 
+    .desktop-medien {
+        display: none;
+    }
+}
 
 nav {
     margin-bottom: 120px;
