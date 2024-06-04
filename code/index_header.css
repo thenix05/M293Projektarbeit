@@ -3,7 +3,7 @@ header {
     position: relative;
 }
 
-.header_content {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ header {
     flex-wrap: wrap;
 }
 
-.header_text {
+.text {
     width: calc(50% - 50px);
 }
 .highlight {
